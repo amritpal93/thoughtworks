@@ -1,0 +1,7 @@
+---
+- hosts: test-servers
+  roles: 
+    - tomcat8
+- hosts: test-server-docker
+  roles:
+    - dockertest
